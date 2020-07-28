@@ -28,6 +28,7 @@ public class HomePageTests extends CommonApi {
 		List<WebElement> images = driver.findElements(By.tagName("img"));
 		for(WebElement allimages:images) {
 			System.out.println(allimages.getAttribute("src"));
+			System.out.println("Test runned");
 		}
 	}
 	
