@@ -14,7 +14,7 @@ import pages.Homepage;
 
 public class HomePageTests extends CommonApi {
 	
-	@Test(enabled = false, priority = 0, description = "Verify KP page")
+	@Test(enabled = true, priority = 0, description = "Verify KP page")
 	public void kp() {
 		
 		Homepage homepage = PageFactory.initElements(driver, Homepage.class);
@@ -22,7 +22,7 @@ public class HomePageTests extends CommonApi {
 		Assert.assertTrue(driver.findElement(By.xpath("/html/body/main/div[1]/div[2]/div/div/div/div[1]/h1/span")).isDisplayed());
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void images() {
 		
 		List<WebElement> images = driver.findElements(By.tagName("img"));
