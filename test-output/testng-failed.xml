@@ -6,7 +6,7 @@
       <class name="pagestests.HomePageTests">
         <methods>
           <include name="tearDown"/>
-          <include name="kp"/>
+          <include name="scroll"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- pagestests.HomePageTests -->
